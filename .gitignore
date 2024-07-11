@@ -1,0 +1,4 @@
+.env
+#add ignore for youtube_downloader folder and all its content
+youtube_downloader/
+.DS_Store
