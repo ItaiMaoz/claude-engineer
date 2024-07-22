@@ -1,0 +1,10 @@
+__pycache__/
+.DS_Store
+
+.env
+
+code_execution_env/
+multiline_input_project/
+snake_game/
+youtube_downloader/
+yt_high_res_downloader/
