@@ -23,7 +23,7 @@ async def get_user_input(prompt="You: "):
         'prompt': 'cyan bold',
     })
     session = PromptSession(style=style)
-    return await session.prompt_async(prompt, multiline=False)
+    return await session.prompt_async(prompt, multiline=True)
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn
 import datetime
 import venv
